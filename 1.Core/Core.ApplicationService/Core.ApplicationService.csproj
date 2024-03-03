@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\Transaction\CommandHandlers\" />
+    <Folder Include="Models\Transaction\QueryHandlers\" />
+    <Folder Include="Models\User\CommandHandlers\" />
+    <Folder Include="Models\User\QueryHandlers\" />
+  </ItemGroup>
+
+</Project>
